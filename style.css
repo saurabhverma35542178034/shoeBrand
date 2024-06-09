@@ -1,0 +1,146 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+nav {
+    background-color:black;
+    width: 100%;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+   
+    
+}
+
+li {
+    float: left; 
+    margin-left: 20px;
+   
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+}
+.Topheading{
+    background-image: linear-gradient(to right, rgb(45, 3, 3) , rgb(195, 106, 114));
+    color: white;
+    text-align: center;
+}
+.abs{
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+
+.Image h2{
+/* position: absolute; */
+color: aliceblue;
+font-size: 30px;
+font-weight: 1900;
+top: 150px;
+left: 50px;
+}
+
+.Image img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+.paratext{
+    color: antiquewhite;
+    /* position: absolute; */
+    font-size: 15px;
+    font-weight: 900;
+    top: 200px;
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px; /* Adjust based on desired max width */
+    /* margin-bottom: 20px; */
+    /* word-wrap: break-word; */
+}
+.Trending{
+    background-color: rgb(229,229,229);
+    width: 100%;
+    height: 30vh;
+    margin: 0;
+    position: relative;
+}
+.Innertrending{
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    background-color: rgb(160,160,160);
+    top: 30px;
+    left: 10%;
+    
+    
+}
+p{
+    margin: 0;
+      font-size: 30px;
+}
+.trendImages img{
+    
+        height: 100px;
+        width: 150px;
+        border: 2px solid white;
+        margin-left: 4px;      
+}
+.LowerBody{
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(to right, rgb(64,64,64) ,rgb(3,3,3));
+   position: relative;
+   
+}
+.LowerBodyBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(to right, rgb(45, 3, 3) , rgb(195, 106, 114));
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: aliceblue;
+    font-size: 18px;
+
+    
+}
+#jordan{
+    height:  250px;
+   width:  250px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin: 0;
+}
+#jordan:hover{
+
+    height:  300px;
+   width:  300px;
+    border-radius: 50%;
+    
+}
+
+/* pre{
+    
+    text-align: left;
+} */
